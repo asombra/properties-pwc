@@ -38,4 +38,4 @@ application:
   recover:
     password:
       mail:
-        url:http://localhost:4200/#/login/restorePassword
+        url: http://localhost:4200/#/login/restorePassword
