@@ -39,3 +39,6 @@ application:
     password:
       mail:
         url: http://localhost:4200/#/login/restorePassword
+  portalweb:
+    mail:
+      to: portalweb@rcibanque.com
