@@ -13,6 +13,7 @@ spring:
     hibernate:
       ddl-auto: none
     database: mysql
+    dialect: org.hibernate.dialect.MySQL5Dialect
 
 eureka:
   instance:
