@@ -6,7 +6,7 @@ spring:
     name: sgi-pagos
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/petclinic?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT-3&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/uat?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT-3&characterEncoding=UTF-8
     username: client
     password: Tu441n6
   jpa:
