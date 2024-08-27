@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: sgi-productos
-  config:
-    import: optional:configserver:http://localhost:8888/config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/petclinic?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT-3&characterEncoding=UTF-8
