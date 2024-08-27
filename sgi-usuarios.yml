@@ -1,0 +1,30 @@
+server:
+  port: 8083
+  
+spring:
+  application:
+    name: sgi-usuarios
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/petclinic?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT-3&characterEncoding=UTF-8
+    username: client
+    password: Tu441n6
+  jpa:
+    hibernate:
+      ddl-auto: none 
+    database: mysql
+    dialect: org.hibernate.dialect.MySQL5Dialect
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  jackson:
+    time-zone: America/Buenos_Aires
+  
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka 
